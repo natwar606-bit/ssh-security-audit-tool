@@ -221,7 +221,7 @@ main(){
    mkdir -p "$LOG_DIR"
    log_message "Script Started"
 check_root
- check_dependencies()
+ check_dependencies
   get_system_info
    check_ssh_service
     check_ssh_configuration
